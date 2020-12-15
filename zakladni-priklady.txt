@@ -8,3 +8,6 @@ docker run --rm -it -p 80:80 --name nginx1 nginx
 # Vytvoreni nginx2 kontejneru
 # Funguje: http://localhost:81
 docker run --rm -it -p 81:80 --name nginx2 nginx
+
+# Vytvoreni kontejneru v "detached" rezimu
+docker run -p 80:80 -d --name nginx1 nginx:alpine
