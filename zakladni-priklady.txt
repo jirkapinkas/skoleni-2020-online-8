@@ -35,3 +35,8 @@ docker rmi IMAGE_ID
 docker image prune
 # Smazani nepouzivanych images
 docker image prune -a
+
+# Jak se dostat dovnitr kontejneru:
+docker exec -it NAZEV_CONTAINERU /bin/bash
+docker exec -it NAZEV_CONTAINERU bash
+docker exec -it NAZEV_CONTAINERU sh
