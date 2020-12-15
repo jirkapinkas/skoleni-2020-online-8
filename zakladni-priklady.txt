@@ -22,3 +22,15 @@ docker ps -a
 docker stop
 docker start
 docker restart
+
+# Seznam images
+docker images
+
+# Smazani image:
+docker rmi nginx:alpine
+# NEBO:
+docker rmi IMAGE_ID
+# Smazani "dangling" images (<none>):
+docker image prune
+# Smazani nepouzivanych images
+docker image prune -a
