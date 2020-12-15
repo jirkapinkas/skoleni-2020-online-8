@@ -3,4 +3,4 @@ docker pull nginx
 
 # Vytvoreni nginx1 kontejneru
 docker run --rm -it -p 80:80 --name nginx1 nginx
-
+docker run --rm -it -p 81:80 --name nginx2 nginx
