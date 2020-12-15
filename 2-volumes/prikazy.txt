@@ -1,1 +1,4 @@
+# toto funguje na Linuxu:
 docker run -p 80:80 --rm -it -v ./html/:/usr/share/nginx/html/ nginx:alpine
+# na Windows:
+docker run -p 80:80 --rm -it -v ABSOLUTNI_CESTA_K_ADRESARI_NEBO_SOUBORU:/usr/share/nginx/html/ nginx:alpine
