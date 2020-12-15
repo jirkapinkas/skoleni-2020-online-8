@@ -1,1 +1,6 @@
+# Stazeni nginx image
 docker pull nginx
+
+# Vytvoreni nginx1 kontejneru
+docker run --rm -it -p 80:80 --name nginx1 nginx
+
