@@ -18,10 +18,11 @@ docker ps
 # Seznam VSECH kontejneru
 docker ps -a
 
-# Stop / Start / Restart kontejneru
+# Stop / Start / Restart / Smazani kontejneru
 docker stop
 docker start
 docker restart
+docker rm CONTAINER_NAME
 
 # Seznam images
 docker images
