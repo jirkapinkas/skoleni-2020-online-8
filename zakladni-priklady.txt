@@ -11,3 +11,14 @@ docker run --rm -it -p 81:80 --name nginx2 nginx
 
 # Vytvoreni kontejneru v "detached" rezimu
 docker run -p 80:80 -d --name nginx1 nginx:alpine
+
+# Seznam vsech bezicich kontejneru
+docker ps
+
+# Seznam VSECH kontejneru
+docker ps -a
+
+# Stop / Start / Restart kontejneru
+docker stop
+docker start
+docker restart
