@@ -1,5 +1,10 @@
 # 1. Musime provest build aplikace
 # mvn clean package
+# NEBO:
+# Na Linuxu:
+# docker run -it --rm -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3-openjdk-11-slim mvn clean package -DskipTests
+# Na Windows:
+# docker run -it --rm -v %CD%:/usr/src/mymaven -w /usr/src/mymaven maven:3-openjdk-11-slim mvn clean package -DskipTests
 # 2. Jak vytvorit Docker image:
 # docker build --tag myapp .
 # 3. Muzeme zkontrolovat vytvorenou image pomoci:
