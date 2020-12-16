@@ -8,3 +8,5 @@ docker-compose rm
 docker-compose down
 # Logy:
 docker-compose logs
+# Restart:
+docker-compose restart
