@@ -1,0 +1,10 @@
+# Spusteni:
+docker-compose up -d
+# Vypnuti:
+docker-compose stop
+# Smazani:
+docker-compose rm
+# Vypnuti & Smazani:
+docker-compose down
+# Logy:
+docker-compose logs
