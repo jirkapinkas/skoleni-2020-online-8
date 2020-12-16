@@ -1,5 +1,14 @@
+# jednorazova inicializace
 docker swarm init
+
+# vytvoreni stacku
 docker stack deploy --compose-file=docker-compose.yml myapp
 
-# docker stack ls
-# docker stack services myapp
+# list stacku
+docker stack ls
+
+# list sluzeb ve stacku
+docker stack services myapp
+
+# smazani stacku
+docker stack rm myapp
